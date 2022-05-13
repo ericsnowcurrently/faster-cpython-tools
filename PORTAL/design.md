@@ -1,5 +1,8 @@
 # The Design for the Benchmarking Job Queue Tooling
 
+| :warning::warning::warning:<br>This design is a long-term objective, based on existing tooling.<br>:warning::warning::warning:<br>For now we will defer a big rewrite.  However...<br>Changes to existing tooling will keep the plan in mind.<br>:warning::warning::warning: |
+| --- |
+
 ## Motivation
 
 Measuring software performance is a delicate effort.  The execution
@@ -113,6 +116,8 @@ tasks:
 * `build_cpython(...)`
 * `run_benchmarks(buildid)`
 
+<!--
+
 ### Open Questions
 
 * use buildbot?
@@ -125,6 +130,8 @@ tasks:
 * support managing a codespeed instance>
 * expanded host management (e.g. full configuration, installs, updates)?
 * ...
+
+-->
 
 
 ## Details
